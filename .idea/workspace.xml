@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ccdb761-86d9-451b-9788-7429ec0c29be" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2IMRsRm9dQURqe1MaWFzyM2GY2W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/ForexBot_2.0/bot/app/spectators&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\ForexBot_2.0\bot\app\spectators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\ForexBot_2.0\bot\app\tools" />
+      <recent name="D:\Python\ForexBot_2.0\bot\app" />
+      <recent name="D:\Python\ForexBot_2.0\bot\spectators" />
+      <recent name="D:\Python\ForexBot_2.0\bot\gui\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ccdb761-86d9-451b-9788-7429ec0c29be" name="Changes" comment="" />
+      <created>1669989671694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669989671694</updated>
+      <workItem from="1669989672854" duration="4059000" />
+      <workItem from="1670050886643" duration="2763000" />
+      <workItem from="1670590592825" duration="5436000" />
+      <workItem from="1670841489027" duration="3786000" />
+      <workItem from="1670984583731" duration="3575000" />
+      <workItem from="1670997185644" duration="4630000" />
+      <workItem from="1671023338324" duration="4126000" />
+      <workItem from="1671072969038" duration="507000" />
+      <workItem from="1671073662461" duration="140000" />
+      <workItem from="1671104446397" duration="415000" />
+      <workItem from="1671110114221" duration="6819000" />
+      <workItem from="1671155202354" duration="791000" />
+      <workItem from="1671176184746" duration="10603000" />
+      <workItem from="1671195631367" duration="331000" />
+      <workItem from="1671195975441" duration="8900000" />
+      <workItem from="1671208487519" duration="140000" />
+      <workItem from="1671238223853" duration="3562000" />
+      <workItem from="1671259387006" duration="1015000" />
+      <workItem from="1671264624320" duration="821000" />
+      <workItem from="1671524559872" duration="3017000" />
+      <workItem from="1671531247689" duration="6144000" />
+      <workItem from="1671541291207" duration="8728000" />
+      <workItem from="1671609664982" duration="4975000" />
+      <workItem from="1671629428286" duration="6438000" />
+      <workItem from="1671778023963" duration="3662000" />
+      <workItem from="1671857255897" duration="5895000" />
+      <workItem from="1671949811084" duration="7647000" />
+      <workItem from="1672020247447" duration="5919000" />
+      <workItem from="1672053380950" duration="2559000" />
+      <workItem from="1672060216791" duration="2698000" />
+      <workItem from="1672105149211" duration="1339000" />
+      <workItem from="1672127783760" duration="12366000" />
+      <workItem from="1672146482131" duration="7435000" />
+      <workItem from="1672196761445" duration="5205000" />
+      <workItem from="1672217114400" duration="9273000" />
+      <workItem from="1672232993798" duration="7165000" />
+      <workItem from="1672283004794" duration="5131000" />
+      <workItem from="1672312898916" duration="2261000" />
+      <workItem from="1672319907464" duration="1596000" />
+      <workItem from="1672321524939" duration="1230000" />
+      <workItem from="1672330385060" duration="4048000" />
+      <workItem from="1672366363511" duration="3159000" />
+      <workItem from="1672390275623" duration="10678000" />
+      <workItem from="1672414364431" duration="2740000" />
+      <workItem from="1672551021760" duration="10912000" />
+      <workItem from="1672638719344" duration="6489000" />
+      <workItem from="1672714581091" duration="872000" />
+      <workItem from="1672741502583" duration="3094000" />
+      <workItem from="1672750319021" duration="7241000" />
+      <workItem from="1672797001118" duration="3667000" />
+      <workItem from="1672822523913" duration="2192000" />
+      <workItem from="1672838361816" duration="4789000" />
+      <workItem from="1672929650745" duration="3096000" />
+      <workItem from="1672965911079" duration="4696000" />
+      <workItem from="1672992098877" duration="1821000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$trading_pair_page.coverage" NAME="trading_pair_page 覆盖结果" MODIFIED="1671535387187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui/pages" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$dash.coverage" NAME="dash 覆盖结果" MODIFIED="1671238470112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$BreakSpectator.coverage" NAME="BreakSpectator 覆盖结果" MODIFIED="1672285400125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$ImbalanceSpectator.coverage" NAME="ImbalanceSpectator 覆盖结果" MODIFIED="1672286253081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$mt5_funcs.coverage" NAME="mt5_funcs 覆盖结果" MODIFIED="1672391677369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/pages" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$TimeSpectator.coverage" NAME="TimeSpectator 覆盖结果" MODIFIED="1672284685058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$tool.coverage" NAME="tool 覆盖结果" MODIFIED="1671544282607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$testing.coverage" NAME="testing 覆盖结果" MODIFIED="1671548445731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui/pages" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$calculator.coverage" NAME="calculator 覆盖结果" MODIFIED="1671959799335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$firstPage.coverage" NAME="firstPage Coverage Results" MODIFIED="1671118719219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$OrderBlockSpectator.coverage" NAME="OrderBlockSpectator 覆盖结果" MODIFIED="1672286820445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$app.coverage" NAME="app 覆盖结果" MODIFIED="1672994027316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$bot.coverage" NAME="bot Coverage Results" MODIFIED="1670842789427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$gui.coverage" NAME="gui 覆盖结果" MODIFIED="1671240150839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$RangeSpectator.coverage" NAME="RangeSpectator 覆盖结果" MODIFIED="1672287882236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$retry.coverage" NAME="retry 覆盖结果" MODIFIED="1671204286256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$app_template.coverage" NAME="app_template 覆盖结果" MODIFIED="1671611566805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui/pages" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$back_test_page.coverage" NAME="back_test_page 覆盖结果" MODIFIED="1672198692247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/pages" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$ai_provide.coverage" NAME="ai_provide Coverage Results" MODIFIED="1671189775914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1672414411376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/pages/pair" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$chart_page.coverage" NAME="chart_page 覆盖结果" MODIFIED="1671634500826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui/pages" />
+  </component>
+</project>
