@@ -21,6 +21,7 @@ class ChartSpectator:
         else:
             self.df = pd.DataFrame(mt5.copy_rates_from_pos(symbol, time_frame, 0, 30))
             self.df["time"] = pd.to_datetime(self.df["time"], unit="s")
+            print(self.df)
 
         self.symbol_name = symbol
         self.time_frame = time_frame

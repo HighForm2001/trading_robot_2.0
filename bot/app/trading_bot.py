@@ -108,7 +108,7 @@ class Bot:
             self.range_spectator.broke_range(self.higher_timeframe.get_previous_row())
 
         # get the trend if trend is confirmed in the range spectator
-        self.confirmed_trend = self.range_spectator.get_trend()
+        # self.confirmed_trend = self.range_spectator.get_trend()
 
         # check if the price goes opposite to the trend.
         if self.confirmed_trend == "Bullish":
@@ -394,7 +394,8 @@ class Bot:
         if self.mode == "Simulation" and not self.file_name:
             self.file_name = f"Simulation_{len(os.listdir(excel_folder))+1}.xlsx"
         elif self.mode != "Simulation" and not self.file_name:
-            self.file_name = "report.xlsx"
+            file_name = self.lower_timeframe.current_time.strftime("%Y-%m")
+            self.file_name = f"{file_name}.xlsx"
         excel_path = pathlib.Path(excel_folder, self.file_name)
         if os.path.exists(excel_path):
             df_read = pd.read_excel(excel_path)
