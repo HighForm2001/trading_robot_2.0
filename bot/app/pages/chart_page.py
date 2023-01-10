@@ -14,37 +14,49 @@ dash.register_page(__name__)
 # app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 obtained_pair = []
 bots = {}
-length = 0
+
+# dropdown boxes
 symbol_dropdown = html.Div(
-    [html.P("Symbol:", style={"font-weight": "bold"}),
-     dcc.Dropdown(id="symbol-dropdown", placeholder="Please select the pair to look for charts.",
-                  style={"width": "200px", "font-size": "16px"}, ), ],
-    style={"padding": "10px"},
+    [html.P("Symbol:", style={"font-weight": "bold", "font-size": "16px", "color": "#333", "font-family": "Georgia, serif"}),
+     html.Div(style={"width": "10px"}),
+     dcc.Dropdown(id="symbol-dropdown", placeholder="Symbols",
+                  style={"width": "300px","font-family": "Georgia, serif"} ), ],
+    style={"padding": "10px", "display": "flex", "align-items": "center"},
+)
+timeframe_dropdown = html.Div(
+    [html.P("Timeframe:", style={"font-weight": "bold", "font-size": "16px", "color": "#333", "font-family": "Georgia, serif"}),
+     html.Div(style={"width": "10px"}),
+     dcc.Dropdown(id="timeframe-dropdown",options=[{'label': timeframe, 'value': timeframe} for timeframe in TIMEFRAMES],
+                  placeholder="Timeframes",
+                  style={"width": "300px","font-family": "Georgia, serif"},
+                  ),
+     ],
+    style={"padding": "10px", "display": "flex", "align-items": "center",},
+)
+dropdown_row = html.Div(
+    [symbol_dropdown,
+     timeframe_dropdown, ],
+    style={"padding": "10px", "display": "flex", "justify-content": "center", "align-items": "center", "background-color": "#f0f8ff",},
 )
 
-timeframe_dropdown = html.Div(
-    [html.P("Timeframe:", style={"font-weight": "bold"}), dcc.Dropdown(id="timeframe-dropdown",
-                                                                       options=[{'label': timeframe, 'value': timeframe}
-                                                                                for timeframe in TIMEFRAMES],
-                                                                       placeholder="Please select the timeframe to look for charts.",
-                                                                       style={"width": "200px", "font-size": "16px"},
-                                                                       ),
-     ],
-    style={"padding": "10px"},
-)
+
 
 # creates the layout of the App
 layout = html.Div(
-    [html.H1("Real Time Charts", style={"text-align": "center", "font-size": "32px"}),
-     dbc.Row(
-         [dbc.Col(symbol_dropdown, style={"padding-right": "20px"}),
-          dbc.Col(timeframe_dropdown, style={"padding-right": "20px"}), ]
-     ),
-     html.Hr(),
+    [html.H1("Real Time Charts", style={
+    "text-align": "center",
+    "font-size": "32px",
+    "color": "#333",
+    "font-family": "Helvetica, Arial, sans-serif",
+    "border-bottom": "2px solid #333",  # added
+    "padding-bottom": "10px",  # added
+}),
+     dropdown_row,
+     html.Hr(style={"border-color": "#ccc"}),
+# html.Button("test", id="test-button"),
      # update every second
      dcc.Interval(id="update", interval=3000),
-     html.Div(id="page-content"),
-     html.Button("test", id="test-button")
+     html.Div(id="page-content", style={"padding-top": "20px"})
      ],
     style={
         "margin-left": "5%",
@@ -52,6 +64,15 @@ layout = html.Div(
         "margin-top": "20px",
         "width": "90%",
         "max-width": "none",
+        "background-color": "#f0f0f0",  # changed from white
+        "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+        "border-radius": "4px",
+        "padding": "20px",
+        "display": "flex",  # added
+        "align-items": "center",  # added
+        "justify-content": "center",  # added
+        "flex-direction": "column",  # added
+        "font-family": "Helvetica, Arial, sans-serif",  # changed from Arial
     },
 )
 
@@ -99,16 +120,16 @@ def update_symbol_dropdown(n_intervals, options):
     return value
 
 
-@callback(Output(component_id="test-button", component_property="n_clicks"),
-          Input(component_id="test-button", component_property="n_clicks"))
-def test_order(n_clicks):
-    if n_clicks is None:
-        raise PreventUpdate
-    global bots
-    for symbol_name in bots:
-        current_bot = bots.get(symbol_name)
-        current_bot.poi = {"low":current_bot.lower_timeframe.current_low, "high": current_bot.lower_timeframe.current_high}
-        current_bot.confirmed_trend = "Bullish"
+# @callback(Output(component_id="test-button", component_property="n_clicks"),
+#           Input(component_id="test-button", component_property="n_clicks"))
+# def test_order(n_clicks):
+#     if n_clicks is None:
+#         raise PreventUpdate
+#     global bots
+#     for symbol_name in bots:
+#         current_bot = bots.get(symbol_name)
+#         current_bot.poi = {"low":current_bot.lower_timeframe.current_low, "high": current_bot.lower_timeframe.current_high}
+#         current_bot.confirmed_trend = "Bullish"
 
 
 def initialize_bot(pair):

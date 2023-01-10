@@ -21,7 +21,6 @@ while not trading_pairs:
     trading_pairs = get_symbol_names()
     trading_pairs.sort()
 symbol_dropdown = html.Div([
-    html.Label("Symbol:", style={"font-weight": "bold", "margin-right": "10px"}),
     dcc.Dropdown(id='symbol-dropdown', options=[{'label': symbol, 'value': symbol} for symbol in trading_pairs],
                  placeholder="Please select pairs to trade." if get_symbol_names() else "You are not connected to "
                                                                                         "MetaTrader5",
@@ -45,14 +44,13 @@ account_balance = dcc.Input(id="balance-input", type="number",
                             step=1,
                             placeholder="Account balance:",
                             min=100,
-                            style={"width": "300px"}
+                            style={"width": "100px"}
                             )
 skip_box = dcc.Input(id="skip-time", type="number",
-                     value=30,
                      step=1,
-                     placeholder="Enter the time (in minutes) you want to skip:",
+                     placeholder="Time to skip (in minutes)",
                      min=1,
-                     style={"display": "none", "width": "300px"}
+                     style={"width": "200px"}
                      )
 
 # figures
@@ -93,43 +91,40 @@ date_picker = dcc.DatePickerRange(id="date-range",
                                   style={"border": "1px solid #ced4da", "border-radius": "5px"})
 
 # buttons
+button_style = {
+    "background-color": "lightgreen",
+    "color": "white",
+    "padding": "10px 20px",
+    "border": "none",
+    "font-size": "16px",
+    "border-radius": "5px",
+    "cursor": "pointer",
+    "outline": "none",
+    "box-shadow": "0 2px 4px rgba(0, 0, 0, 0.2)",
+    "font-family": "Georgia, serif"
+}
 
-# start button
 start_button = html.Button("Start Backtesting!", id="start-button",
-                           disabled=True, style={"background-color": "#007bff", "color": "white", "border": "none",
-                                                 "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                           disabled=True, style=button_style)
 
-# timeframe_button
 m5_button = html.Button("M5", id="m5-button",
-                        disabled=True, style={"background-color": "#6c757d", "color": "white", "border": "none",
-                                              "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                        disabled=True, style=button_style)
 m1_button = html.Button("M1", id="m1-button",
-                        disabled=True, style={"background-color": "#6c757d", "color": "white", "border": "none",
-                                              "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                        disabled=True, style=button_style)
 
-# next button
 next_button = html.Button("Next Candle", id="next-button",
-                          disabled=True, style={"background-color": "#6c757d", "color": "white", "border": "none",
-                                                "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                          disabled=True, style=button_style)
 
-# auto button
 auto_button = html.Button("Auto Mode", id="auto-button",
-                          style={"display": "none", "background-color": "#6c757d", "color": "white", "border": "none",
-                                 "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                          style=button_style)
 
-# manual button
 manual_button = html.Button("Manual Mode", id="manual-button",
-                            style={"display": "none", "background-color": "#6c757d", "color": "white", "border": "none",
-                                   "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"}, disabled=True)
+                            style=button_style, disabled=True)
 
-# skip time button
 skip_button = html.Button("Skip now!", id="skip-button",
-                          style={"display": "none", "background-color": "#6c757d", "color": "white", "border": "none",
-                                 "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                          style=button_style)
 skip_all_button = html.Button("Skip All", id="skip-all",
-                              style={"display": "none", "background-color": "#6c757d", "color": "white",
-                                     "border": "none",
-                                     "padding": "10px 20px", "font-size": "14px", "border-radius": "4px"})
+                              style=button_style)
 # counter
 counter = dcc.Interval(id="counter")
 
@@ -137,34 +132,87 @@ counter = dcc.Interval(id="counter")
 m5_graph = dcc.Graph(id="m5-graph", figure={"data": [], "layout": {}}, style={"display": "none"})
 m1_graph = dcc.Graph(id="m1-graph", figure={"data": [], "layout": {}}, style={"display": "none"})
 
+# rows
+table_style = {"border": "none", "border-collapse": "collapse", "padding": "10px", "border-spacing": "5px",
+               "font-family": "Georgia, serif"}
+td_style = {"border": "none", "text-align": "center", "padding": "10px"}
+
+input_table = html.Table([html.Tr(
+    [html.Td([html.P("Select the date range: ")], style=td_style),
+     html.Td([date_picker], style=td_style)
+     ]),
+    html.Tr([html.Td([html.P("Select the symbol:")], style=td_style),
+             html.Td([symbol_dropdown], style=td_style)
+             ]),
+    html.Tr([html.Td([html.P("Enter simulation balance: ")], style=td_style),
+             html.Td([account_balance], style=td_style)
+             ]),
+    html.Tr([html.Td([start_button], colSpan=2, style=td_style)
+             ]),
+], style=table_style)
+table_div = html.Div([input_table],
+                     style={"padding": "10px", "display": "flex", "justify-content": "center", "align-items": "center",
+                            "background-color": "#f0f8ff"})
+time_frame_next_row = html.Div([
+    m5_button,
+    html.Div(style={"width": "10px"}),
+    m1_button,
+    html.Div(style={"width": "10px"}),
+    next_button,
+], style={"padding": "10px", "display": "flex", "justify-content": "center", "align-items": "center",
+          "background-color": "#f0f8ff"})
+
+skip_row_with_all = html.Div([
+    auto_button,
+    html.Div(style={"width": "10px"}),
+    manual_button,
+    html.Div(style={"width": "10px"}),
+    skip_box,
+    html.Div(style={"width": "10px"}),
+    skip_button,
+    html.Div(style={"width": "10px"}),
+    skip_all_button,
+
+], id="to-show", style={"display": "none"})
+
+display_image = html.Div(children=[
+    m1_graph,
+    m5_graph
+], style={"padding": "20px", "border-radius": "5px", "display": "flex",
+          "align-items": "center"})
 # layout
 layout = html.Div([
-    dbc.Row([
-        dbc.Col(html.P("Please select the date range from the date picker below to start backtesting.")),
-        dbc.Col(date_picker, width={"size": 6, "offset": 3})
-    ]),
-    html.Label("Please select the symbol to start backtesting.", style={"margin-top": "20px"}),
-    symbol_dropdown,
-    account_balance,
-    start_button,
-    html.Hr(style={"margin": "20px 0"}),
-    m5_button,
-    m1_button,
-    next_button,
-    auto_button,
-    manual_button,
-    html.Div(id="output", children=[
-        dbc.Row([
-            dbc.Col(skip_box),
-            dbc.Col(skip_button)
-        ], style={"margin-top": "20px"}),
-        skip_all_button,
-        m1_graph,
-        m5_graph
-    ], style={"margin-top": "40px"}),
-    html.Div(id="output-2"),
+    html.H1("Back Test", style={
+        "text-align": "center",
+        "font-size": "32px",
+        "color": "#333",
+        "font-family": "Helvetica, Arial, sans-serif",
+        "border-bottom": "2px solid #333",  # added
+        "padding-bottom": "10px",  # added
+    }),
+    table_div,
+    html.Div(style={"height": "10px"}),
+    time_frame_next_row,
+    html.Div(style={"height": "10px"}),
+    skip_row_with_all,
+    display_image,
     counter
-])
+], style={
+    "margin-left": "5%",
+    "margin-right": "5%",
+    "margin-top": "20px",
+    "width": "90%",
+    "max-width": "none",
+    "background-color": "#f0f0f0",  # changed from white
+    "box-shadow": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+    "border-radius": "4px",
+    "padding": "20px",
+    "display": "flex",  # added
+    "align-items": "center",  # added
+    "justify-content": "center",  # added
+    "flex-direction": "column",  # added
+    "font-family": "Helvetica, Arial, sans-serif",  # changed from Arial
+})
 
 
 # layout = html.Div([
@@ -217,16 +265,13 @@ def change_timeframe_m1(m1_click, m5_click, start_click):
 
 
 # make auto and manual mode visible
-@callback([Output(component_id="auto-button", component_property="style"),
-           Output(component_id="manual-button", component_property="style"),
-           Output(component_id="skip-button", component_property="style"),
-           Output(component_id="skip-time", component_property="style"),
-           Output(component_id="skip-all", component_property="style")],
+@callback(Output(component_id="to-show", component_property="style"),
           Input(component_id="start-button", component_property="n_clicks"))
 def update_auto_and_manual_button(n_clicks):
     if n_clicks is None:
         raise PreventUpdate
-    return {"display": "block"}, {"display": "block"}, {"display": "block"}, {"display": "block"}, {"display": "block"}
+    return {"padding": "20px", "border-radius": "5px", "display": "flex",
+            "align-items": "center", "background-color": "#f0f8ff"}
 
 
 # change_mode

@@ -108,7 +108,7 @@ class Bot:
             self.range_spectator.broke_range(self.higher_timeframe.get_previous_row())
 
         # get the trend if trend is confirmed in the range spectator
-        # self.confirmed_trend = self.range_spectator.get_trend()
+        self.confirmed_trend = self.range_spectator.get_trend()
 
         # check if the price goes opposite to the trend.
         if self.confirmed_trend == "Bullish":

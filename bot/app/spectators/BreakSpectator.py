@@ -87,11 +87,12 @@ class BreakSpectator:
     def check_break_of_structure(self, reached_equilibrium_time):
 
         if self.current_trend and self.current_trend == "Bullish":
+            if len(self.swing_highs) < 2:
+                return None
             current_high_time = self.swing_highs[0][2]
             if current_high_time <= reached_equilibrium_time:
                 return None
-            if len(self.swing_highs) < 2:
-                return None
+
             current_high = self.swing_highs[0]
             previous_high = self.swing_highs[1]
             # second_previous_high = self.swing_highs[2]
@@ -112,11 +113,12 @@ class BreakSpectator:
                 return self.swing_lows[0][2]
 
         elif self.current_trend and self.current_trend == "Bearish":
+            if len(self.swing_lows) < 2:
+                return None
             current_low_time = self.swing_lows[0][2]
             if current_low_time <= reached_equilibrium_time:
                 return None
-            if len(self.swing_lows) < 2:
-                return None
+
             current_low = self.swing_lows[0]
             previous_low = self.swing_lows[1]
 

@@ -5,10 +5,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccdb761-86d9-451b-9788-7429ec0c29be" name="Changes" comment="Trading Robot 2.0">
+      <change afterPath="$PROJECT_DIR$/bot/app/excel/Simulation/Simulation_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/excel/Simulation/Simulation_3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.0791149999999998_stoploss-1.0788799999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.0870449999999998_stoploss-1.0869099999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.087705_stoploss-1.0873099999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.089725_stoploss-1.08965_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.09121_stoploss-1.0910799999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.09326_stoploss-1.093_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.09619_stoploss-1.0960599999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.0969_stoploss-1.09676_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.098925_stoploss-1.09875_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.113255_stoploss-1.11317_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1179700000000001_stoploss-1.11761_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1215899999999999_stoploss-1.1214_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.124275_stoploss-1.1241999999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.12636_stoploss-1.12617_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.131485_stoploss-1.1313499999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.135475_stoploss-1.1350999999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.139815_stoploss-1.13947_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1425649999999998_stoploss-1.1424299999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1638199999999999_stoploss-1.1637099999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17143_stoploss-1.1712399999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17174_stoploss-1.1716399999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1718950000000001_stoploss-1.17174_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.173515_stoploss-1.17342_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17527_stoploss-1.1751099999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17602_stoploss-1.1759_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17714_stoploss-1.17699_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.178045_stoploss-1.1778899999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1784400000000002_stoploss-1.1781_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.17885_stoploss-1.1787299999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1802700000000002_stoploss-1.1801599999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.181445_stoploss-1.1813699999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.181475_stoploss-1.18125_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.182145_stoploss-1.18194_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.182555_stoploss-1.18247_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1827800000000002_stoploss-1.1826699999999999_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1828400000000001_stoploss-1.18275_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.185865_stoploss-1.1857799999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.189515_stoploss-1.1890699999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.19043_stoploss-1.1903199999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1905000000000001_stoploss-1.19041_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1905299999999999_stoploss-1.1903199999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1920549999999999_stoploss-1.1919199999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.19212_stoploss-1.1920199999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.1938849999999999_stoploss-1.19379_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.2024_stoploss-1.2023199999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.203945_stoploss-1.20322_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.20478_stoploss-1.2046199999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.20796_stoploss-1.2078799999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.20987_stoploss-1.20979_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.210785_stoploss-1.2106999999999999_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.212985_stoploss-1.2128599999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.21449_stoploss-1.21433_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.2149_stoploss-1.2147199999999998_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.21508_stoploss-1.21494_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.21535_stoploss-1.21519_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.2157650000000002_stoploss-1.21553_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.215905_stoploss-1.2158_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.224745_stoploss-1.22464_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.22676_stoploss-1.22664_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/buy_entry-1.22935_stoploss-1.2285499999999998_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.08018_stoploss-1.08037_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.0810300000000002_stoploss-1.0812700000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.087675_stoploss-1.0877700000000001_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.0897450000000002_stoploss-1.0898400000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.0933700000000002_stoploss-1.0935400000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.09988_stoploss-1.1_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.111365_stoploss-1.11152_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.123125_stoploss-1.12342_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1269399999999998_stoploss-1.12707_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.13082_stoploss-1.1310300000000002_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1320299999999999_stoploss-1.1322100000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1437400000000002_stoploss-1.1438700000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.162915_stoploss-1.1629900000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.163255_stoploss-1.16345_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.16655_stoploss-1.1666400000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1678549999999999_stoploss-1.1680300000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.16847_stoploss-1.16862_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.169935_stoploss-1.17011_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.17158_stoploss-1.1716900000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1754950000000002_stoploss-1.1757700000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.17678_stoploss-1.1769_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.178915_stoploss-1.1791600000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.181325_stoploss-1.18144_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.18179_stoploss-1.1819400000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.18184_stoploss-1.18209_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1819250000000001_stoploss-1.18208_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1825649999999999_stoploss-1.18273_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.182985_stoploss-1.1832900000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.18397_stoploss-1.18409_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1850200000000002_stoploss-1.1855300000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.186595_stoploss-1.1866700000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.186715_stoploss-1.1869100000000001_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.18674_stoploss-1.1869_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.18692_stoploss-1.187_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.188015_stoploss-1.18849_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.1903299999999999_stoploss-1.19045_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.19124_stoploss-1.1913600000000002_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.191795_stoploss-1.19191_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.193895_stoploss-1.19399_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.19761_stoploss-1.19771_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.20017_stoploss-1.2002400000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.201805_stoploss-1.2020300000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.202595_stoploss-1.2027100000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.20317_stoploss-1.20333_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.2035749999999998_stoploss-1.20368_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.2055250000000002_stoploss-1.2056000000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.20629_stoploss-1.2064100000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.20794_stoploss-1.20802_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.208685_stoploss-1.2088500000000002_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.211965_stoploss-1.21207_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.213735_stoploss-1.21381_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.21401_stoploss-1.2141700000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.215565_stoploss-1.21568_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.21593_stoploss-1.21607_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.21623_stoploss-1.2164300000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.21694_stoploss-1.21702_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.21962_stoploss-1.2197500000000001_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.22137_stoploss-1.2214600000000002_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.221395_stoploss-1.22167_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.223355_stoploss-1.22353_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.223655_stoploss-1.22391_result-win.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.22481_stoploss-1.22503_result-lose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/app/image/sell_entry-1.2315800000000001_stoploss-1.2316600000000002_result-win.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/excel/Real_Trading/2023-01.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/excel/Real_Trading/2023-01.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/excel/Real_Trading/report.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/pages/back_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/pages/back_test_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/pages/chart_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/pages/chart_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/app/pages/pair/pair.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/pages/pair/pair.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/app/spectators/ChartSpectator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/spectators/ChartSpectator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/app/trading_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/trading_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/pages/report_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/pages/report_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/pages/trading_pair_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/pages/trading_pair_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/app/spectators/BreakSpectator.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/app/spectators/BreakSpectator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +163,16 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2IMRsRm9dQURqe1MaWFzyM2GY2W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -124,7 +258,11 @@
       <workItem from="1672929650745" duration="3096000" />
       <workItem from="1672965911079" duration="4696000" />
       <workItem from="1672992098877" duration="2196000" />
-      <workItem from="1673049359927" duration="345000" />
+      <workItem from="1673049359927" duration="701000" />
+      <workItem from="1673254829898" duration="10332000" />
+      <workItem from="1673268549365" duration="8180000" />
+      <workItem from="1673310888032" duration="800000" />
+      <workItem from="1673330949251" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="Trading Robot 2.0">
       <created>1672994611758</created>
@@ -140,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672994773500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Trading Robot 2.0">
+      <created>1673049935878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049935878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +303,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Trading Robot 2.0" />
     <option name="LAST_COMMIT_MESSAGE" value="Trading Robot 2.0" />
   </component>
@@ -173,7 +319,7 @@
     <SUITE FILE_PATH="coverage/ForexBot_2_0$calculator.coverage" NAME="calculator 覆盖结果" MODIFIED="1671959799335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
     <SUITE FILE_PATH="coverage/ForexBot_2_0$firstPage.coverage" NAME="firstPage Coverage Results" MODIFIED="1671118719219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
     <SUITE FILE_PATH="coverage/ForexBot_2_0$OrderBlockSpectator.coverage" NAME="OrderBlockSpectator 覆盖结果" MODIFIED="1672286820445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
-    <SUITE FILE_PATH="coverage/ForexBot_2_0$app.coverage" NAME="app 覆盖结果" MODIFIED="1673049697175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app" />
+    <SUITE FILE_PATH="coverage/ForexBot_2_0$app.coverage" NAME="app 覆盖结果" MODIFIED="1673334183331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app" />
     <SUITE FILE_PATH="coverage/ForexBot_2_0$bot.coverage" NAME="bot Coverage Results" MODIFIED="1670842789427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot" />
     <SUITE FILE_PATH="coverage/ForexBot_2_0$gui.coverage" NAME="gui 覆盖结果" MODIFIED="1671240150839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/gui" />
     <SUITE FILE_PATH="coverage/ForexBot_2_0$RangeSpectator.coverage" NAME="RangeSpectator 覆盖结果" MODIFIED="1672287882236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bot/app/spectators" />
